@@ -42,7 +42,7 @@ SMTP_PORT = int(os.getenv("SMTP_PORT", "587"))
 SMTP_STARTTLS = os.getenv("SMTP_STARTTLS", "true").lower() == "true"
 
 SMTP_USER = os.getenv("SMTP_USER", "usamuruudul@gmail.com")
-SMTP_PASS = os.getenv("SMTP_PASS", "heKzig-cajgyh-dubgu6")  # NOT your normal password
+SMTP_PASS = os.getenv("SMTP_PASS", "")  # NOT your normal password
 
 
 # Thresholds
